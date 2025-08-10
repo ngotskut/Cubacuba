@@ -1,1 +1,23 @@
-
+`json
+{
+  "name": "nft-mint-bot",
+  "version": "1.0.0",
+  "description": "Bot untuk minting NFT dengan retry, gas bump, WS circuit breaker, HTTP fallback, Flashbots, dan Prometheus telemetry",
+  "main": "src/bot.ts",
+  "scripts": {
+    "start": "ts-node src/bot.ts"
+  },
+  "dependencies": {
+    "@ethersproject/providers": "^5.7.0",
+    "@flashbots/ethers-provider-bundle": "^0.17.0",
+    "ethers": "^5.7.2",
+    "express": "^4.18.2",
+    "prom-client": "^14.1.0",
+    "ts-node": "^10.9.1",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
+`
